@@ -79,36 +79,6 @@ Press `Ctrl+b` and then `d`
 
 </details>
 ━━━━━━━━━━━━━━━━━━━━
-
-
-<h2 align="center"> 
-    ᴡʀɪᴛᴇ ɴᴇᴡ ᴍᴏᴅᴜʟᴇs 
-</h2>
-
-```py
-#ᴀᴅᴅ ʟɪᴄᴇɴsᴇ ᴛᴇxᴛ ʜᴇʀᴇ ɢᴇᴛ ɪᴛ ғʀᴏᴍ ʙᴇʟᴏᴡ.
-
-from DoreamonRobot import pbot as mukesh # This is bot's client
-from pyrogram import filters # pyrogram filters
-
-
-
-#ғᴏʀ /help ᴍᴇɴᴜ
-__mod_name__ = "Module Name"
-__help__ = "Module help message"
-
-
-@mukesh.on_message(filters.command("start"))
-async def some_function(_, message):
-    await message.reply_text("ɪ'ᴍ.ᴀʟɪᴠᴇ ʙᴀʙʏ❣️!!")
-
-# ᴍᴀɴʏ ᴜsᴇғᴜʟ ғᴜɴᴄᴛɪᴏɴs ᴀʀᴇ ɪɴ, MukeshRobot/utils/,DoreamonRobot, and DoreamonRobot/modules/
-```
-
-<h3 align="center"> 
- ᴀɴᴅ ᴘᴜᴛ ᴛʜɪs ғɪʟᴇ ɪɴ DoreamonRobot/modules/, ʀᴇsᴛᴀʀᴛ ᴀɴᴅ ᴛᴇsᴛ ʏᴏᴜʀ ʙᴏᴛ.
-</h3>
-
 ━━━━━━━━━━━━━━━━━━━━
 <h3 align="center">
     ─「 sᴜᴩᴩᴏʀᴛ 」─
